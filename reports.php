@@ -33,7 +33,7 @@ $logArray["Windows"]= "Windows";
 // $logArray["VideoSource"]= "Test Count";
 
 writeTestLogsArray($logArray);
-$attempts = 1;
+$attempts = 0;
 while (true) {
     echo  "\nMain: Load WebDriver - Attempt $attempts...  \n";
     try {
